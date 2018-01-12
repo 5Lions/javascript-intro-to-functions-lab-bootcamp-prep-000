@@ -7,13 +7,13 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log("logShout " + shout(string));
+  console.log(shout(string));
 }
 
 logShout('HEllO');
 
 function logWhisper(string) {
-  console.log("logWhisper " + whisper(string));
+  console.log(whisper(string));
 }
 
 logWhisper("hellO");
